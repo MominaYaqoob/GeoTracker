@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:map_integration/polyline_screen.dart';
 
 import 'map_screen.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:MapScreen(),
+      home:PolylineScreen(),
     );
   }
 }
